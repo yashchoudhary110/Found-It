@@ -1,0 +1,39 @@
+{
+  "name": "found-it",
+  "version": "1.0.0",
+  "description": "foundIt-Do you got any other's lost thing upload here Or if you lost something search here",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "both": "concurrently \"npx nodemon index.js\" \"cd .. && cd foundit-frontend && npm run start\" ",
+    "start": "node index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix foundit-frontend && npm run build --prefix foundit-frontend"
+  },
+  "author": "Navin Parmar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^1.40.0",
+    "concurrently": "^7.6.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-formidable": "^1.2.0",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^2.2.12",
+    "mongoose": "^6.11.5",
+    "multer": "^1.4.4",
+    "multer-gridfs-storage": "^5.0.2",
+    "nodemailer": "^6.9.9",
+    "sib-api-v3-sdk": "^8.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
