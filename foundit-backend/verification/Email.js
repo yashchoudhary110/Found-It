@@ -2,7 +2,8 @@ const nodemailer= require("nodemailer");
 
 const bcrypt= require("bcrypt");
 // const User = require("./models/user");
-
+// const email=User.body;
+// console.log(email);
 let transporter = nodemailer.createTransport({
   service:'gmail',
   auth:{
@@ -27,7 +28,7 @@ const sendEmail = async (v_link, email) => {
   try {
    
     const mailoption ={
-       from : "raghuvanshiharsh32@gmail.com",
+       from : "yashchoudhary572001@gmail.com",
        to :email,
        subject : "Verify Your Email",
        html : `<p>Click on given below Link to verify your email id</p>

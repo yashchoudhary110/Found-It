@@ -126,7 +126,7 @@ function AddItem(props) {
                 </div>
 
                 <div className="my-3">
-                  <TextField focused type="date" required fullWidth id="date" label="Date when You lost or found" variant="standard" onChange={onChange} name="date" InputProps={fontS}
+                  <TextField focused type="date" required fullWidth id="date" label="Date when You Buy and Sell book " variant="standard" onChange={onChange} name="date" InputProps={fontS}
                     InputLabelProps={fontS} />
                 </div>
 

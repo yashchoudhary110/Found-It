@@ -73,23 +73,23 @@ function Search(props) {
                   <MenuItem value="" sx={{ fontSize: fontsize }}>
                     <em>None</em>
                   </MenuItem>
-                  <MenuItem value="Lost" sx={{ fontSize: fontsize }}>Lost</MenuItem>
-                  <MenuItem value="Found" sx={{ fontSize: fontsize }}>Found</MenuItem>
+                  <MenuItem value="To Buy" sx={{ fontSize: fontsize }}>To Buy</MenuItem>
+                  <MenuItem value="To Sell" sx={{ fontSize: fontsize }}>To Sell</MenuItem>
                 </Select>
               </FormControl>
             </div>
-            <div className="my-3 input-group-lg">
+            {/* <div className="my-3 input-group-lg">
               <TextField fullWidth id="type" label="Type of Item" variant="standard" onChange={onChange} name="type" InputProps={fontS}
                 InputLabelProps={fontS} />
-            </div>
-            <div className="my-3 input-group-lg">
+            </div> */}
+            {/* <div className="my-3 input-group-lg">
               <TextField fullWidth id="place" label="Place where You lost or found the Item" variant="standard" onChange={onChange} name="place" InputProps={fontS}
                 InputLabelProps={fontS} />
-            </div>
-            <div className="my-3 input-group-lg">
-              <TextField focused type="date" fullWidth id="date" label="Date when You lost or found the Item" variant="standard" onChange={onChange} name="date" InputProps={fontS}
+            </div> */}
+            {/* <div className="my-3 input-group-lg">
+              <TextField focused type="date" fullWidth id="date" label="Date when You Buy or Sell book" variant="standard" onChange={onChange} name="date" InputProps={fontS}
                 InputLabelProps={fontS} />
-            </div>
+            </div> */}
             <div className='d-grid mt-5'>
               <button type="submit" className="btn btn-primary btn-lg">Apply filters</button>
             </div>

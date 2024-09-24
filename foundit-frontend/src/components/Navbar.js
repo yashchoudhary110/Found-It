@@ -44,22 +44,22 @@ export default function Navbar(props) {
               <li className="nav-item d-flex flex-row">
                 <Link className="nav-link  text-muted p" to="search"><i className="bi bi-search me-1"></i>Search</Link>
               </li>
-              <li className="nav-item d-flex flex-row">
+              {/* <li className="nav-item d-flex flex-row">
                 <Link className="nav-link  text-muted p" to="placement">Placement</Link>
-              </li>
+              </li> */}
               <li className="nav-item d-flex flex-row">
                 <Link className="nav-link  text-muted p" to="academic">Academic</Link>
               </li>
-              <li className="nav-item d-flex flex-row">
+              {/* <li className="nav-item d-flex flex-row">
                 <Link className="nav-link  text-muted p" to="academic">Brain Test</Link>
-              </li>
-              <li className="nav-item d-flex flex-row">
+              </li> */}
+              {/* <li className="nav-item d-flex flex-row">
                 <Link className="nav-link  text-muted p" to="academic">Puzzle</Link>
-              </li>
+              </li> */}
               
-              <li className="nav-item d-flex flex-row">
+              {/* <li className="nav-item d-flex flex-row">
                 <Link className="nav-link  text-muted p" to="academic">QnA</Link>
-              </li>
+              </li> */}
               {/* <li className="nav-item d-flex flex-row">
                 <Link className="nav-link  text-muted p" to="/Details">Details</Link>
               </li> */}

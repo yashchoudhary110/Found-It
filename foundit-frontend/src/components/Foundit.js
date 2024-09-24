@@ -18,7 +18,7 @@ export default function Foundit(props) {
         else{
           let li = 0, fi = 0;
           for (let i = 0; i < d.items_list.length; i++) {
-            if (d.items_list[i].status==="Lost") li = li + 1;
+            if (d.items_list[i].status==="To Buy") li = li + 1;
             else  fi=fi+1;
           } setLosti(li); setFoundi(fi);
         }
@@ -111,11 +111,11 @@ export default function Foundit(props) {
         <ul onChange={setGender} className="nav nav-pills nav-pills-bg-soft justify-content-center mb-4 px-3" id="course-pills-tab" role="tablist">
           {/*<!-- Filter-1 -->*/}
           <li className="nav-item me-2 me-sm-5">
-            <input type="radio" className="btn-check" name="options" id="option1" autoComplete="off" value="To Sell"/>
+            <input type="radio" className="btn-check" name="options" id="option1" autoComplete="off" value="To Buy"/>
             <label className="btn nav-link mb-2 px-2 py-0 mb-md-0" htmlFor="option1" id="course-pills-tab-1" data-bs-toggle="pill" data-bs-target="#course-pills-tabs-1">Needed Books </label>
           </li>
           <li className="nav-item me-2 me-sm-5">
-            <input type="radio" className="btn-check" name="options" id="option2" autoComplete="off" value="To Buy" />
+            <input type="radio" className="btn-check" name="options" id="option2" autoComplete="off" value="To Sell" />
             <label className="btn nav-link mb-2 px-2 py-0 mb-md-0" htmlFor="option2" id="course-pills-tab-2" data-bs-toggle="pill" data-bs-target="#course-pills-tabs-2">Books For Sell</label>
           </li>
           <li className="nav-item me-2 me-sm-5">

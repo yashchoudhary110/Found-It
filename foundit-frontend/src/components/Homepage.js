@@ -57,8 +57,8 @@ export default function Homepage() {
                     <div className="col-lg-3 col-md-6 text-center">
                         <div className="mt-5">
                             <div className="mb-2"><i className="bi-gem fs-1 text-primary"></i></div>
-                            <h3 className="h4 mb-2"><Link className="nav-link  text-black p" to="placement">Placement</Link></h3>
-                            <p className="text-muted mb-0">we help you to find placement procedure using company name</p>
+                            <h3 className="h4 mb-2"><Link className="nav-link  text-black p" to="search">Search</Link></h3>
+                            <p className="text-muted mb-0">we help you to find books</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 text-center">

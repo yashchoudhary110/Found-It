@@ -126,7 +126,7 @@ function Items(props) {
                     InputLabelProps={fontS} inputProps={minl} value={newItem.edescription} />
                 </div>
                 <div className="my-3">
-                  <TextField type="date" required fullWidth id="edate" label="Date when You lost or found the Item" variant="standard" onChange={onChange} name="edate" InputProps={fontS}
+                  <TextField type="date" required fullWidth id="edate" label="Date when You Buy and Sell book" variant="standard" onChange={onChange} name="edate" InputProps={fontS}
                     InputLabelProps={fontS} value={newItem.edate.slice(0, 10)} />
                 </div>
                 <div className="my-3">

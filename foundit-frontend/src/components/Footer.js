@@ -9,15 +9,15 @@ export default function Footer() {
           <p className="text-center text-muted p-0 m-0 pt-2 pb-1">
             Made With
             <i className="bi bi-heart-fill p-0 m-0 px-1" style={{ width: 28, height: 25, "color": "red" }}></i>By
-            <a href="https://www.linkedin.com/in/056_Navin/" className='px-1 text-muted' rel="noopener noreferrer" target={"_blank"}>Harsh Raghuvanshi</a>
+            <a href="https://www.linkedin.com/in/056_Navin/" className='px-1 text-muted' rel="noopener noreferrer" target={"_blank"}>Yash Choudhary</a>
           </p>
         </div>
 
         <div className="col-12 d-flex align-items-center justify-content-center px-3">
-          <p className="text-center text-muted p-0 m-0 py-1">
+          {/* <p className="text-center text-muted p-0 m-0 py-1">
             Contact Us: 
             <a href="https://mail.google.com/mail/u/0/#inbox" className='text-muted' rel="noopener noreferrer" target={"_blank"}>raghuvanshiharsh32@gmail.com</a>
-          </p>
+          </p> */}
         </div>
 
         <ul className="col-12 d-flex justify-content-center align-items-center list-unstyled p-0 m-0 px-3 pb-2 pt-1">
